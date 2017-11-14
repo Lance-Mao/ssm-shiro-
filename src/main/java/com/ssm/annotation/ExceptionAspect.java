@@ -17,11 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * @Autor jiangcaijun
- * @Date 2017/11/9
- * @Time 13:38
- */
+
 @Aspect
 @Component
 @Order(4)

@@ -111,11 +111,6 @@ public class LogServiceImpl implements LogService {
     }
     /**
      * 异常数组转成字符串
-     *
-     * @param e
-     * @return
-     * @author
-     * @2016-8-18 下午5:43:20
      */
     private String createExceptionDetail(Exception e) {
         e.printStackTrace();

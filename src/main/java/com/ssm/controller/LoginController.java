@@ -18,9 +18,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-/**
- * Created by jiangcaijun on 2017/3/29.
- */
 @Controller
 public class LoginController extends BaseController{
     private static final Logger LOG = Logger.getLogger(LoginController.class);

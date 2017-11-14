@@ -9,10 +9,9 @@ import javax.jms.TextMessage;
 
 
 /**
- * 
- * @author liang
+ *
  * @description  Topic消息监听器
- * 
+ *
  */
 @Component
 public class TopicReceiver1 implements MessageListener {

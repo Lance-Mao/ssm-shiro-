@@ -1,12 +1,5 @@
 package com.ssm.utils;
 
-import lombok.Data;
-
-/**
- * @Autor jiangcaijun
- * @Date 2017/11/9
- * @Time 10:20
- */
 public class ConstantVar {
     public static final String LOGIN_USER = "loginUser";
 
@@ -23,5 +16,9 @@ public class ConstantVar {
         public int getValue() {
             return value;
         }
+    }
+
+    public static String getLoginUser() {
+        return LOGIN_USER;
     }
 }

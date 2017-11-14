@@ -25,7 +25,7 @@ public class UserController extends BaseController{
 	private static final Logger LOG = Logger.getLogger(UserController.class);
 
 
-	//  下面两种@Resource只要使用一种即可,
+//  下面两种@Resource只要使用一种即可,
 //	@Resource(name="userService")
 //	用@Resource后就不必使用@Autowired，可以降低耦合
 //	用@Autowired
@@ -65,13 +65,7 @@ public class UserController extends BaseController{
 		jsonObject.put("id","数据拿到123了");
 		return renderSuccess(jsonObject.toJSONString());
 	}
-	/**
-	 * @Title: testPOJO
-	 * @param @param model
-	 * @param @return    参数
-	 * @return String    返回类型
-	 * @throws
-	 */
+
 	@RequestMapping(value = "/testPOJO", method = RequestMethod.POST)
 	@ResponseBody
 	public Object testPOJO(Model model) {
