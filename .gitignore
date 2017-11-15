@@ -3,11 +3,11 @@
 ### Example user template
 
 # IntelliJ project files
-.idea
+.idea/
 *.iml
-out
-gen
-target
+out/
+gen/
+target/
 
 将删除 .idea/Visalie.iml
 将删除 .idea/dataSources.local.xml
